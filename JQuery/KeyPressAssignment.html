@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#first").keypress(function(){
+   
+   
+    $("#second").val($("#first").val().length+1);
+  
+    
+    });
+});
+</script>
+</head>
+<body class="siblings">
+	<div>
+	    <input type="text" id="first" placeholder="Enter text" /><br/><br>
+	    <input type="text" id="second" placeholder="Count" />
+	     <p id="as"></p>
+	</div>
+
+</body>
+</html>
